@@ -6,17 +6,17 @@ _clk_ prints the [binary representation](https://en.wikipedia.org/wiki/Binary-co
 
 ## Examples
 
+Shows the current time on a binary clock:
+
 ```
 $ clk
 ```
 
-Shows the current time on a binary clock
+Shows the current time on a binary clock and in its standard sexagesimal form:
 
 ```
 $ clk; date +"%H   %M   %S"
 ```
-
-Shows the current time on a binary clock and in its standard sexagesimal form
 
 ## Install
 
