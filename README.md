@@ -1,6 +1,6 @@
 # clk
 
-A small [binary clock](https://en.wikipedia.org/wiki/Binary_clock) clock.
+A small [binary clock](https://en.wikipedia.org/wiki/Binary_clock).
 
 _clk_ prints the [binary representation](https://en.wikipedia.org/wiki/Binary-coded_decimal) of the current time.
 
