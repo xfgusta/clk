@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdint.h>
 
 #define IS_SET(NUM, N) (NUM & (1 << N))
 #define ON "\033[31m⬤\033[0m"
@@ -17,9 +16,9 @@ int main() {
     time_t now = time(0);
     struct tm *local = localtime(&now);
     
-    uint8_t h[] = {local->tm_hour % 10, local->tm_hour / 10};
-    uint8_t m[] = {local->tm_min % 10, local->tm_min / 10};
-    uint8_t s[] = {local->tm_sec % 10, local->tm_sec / 10};
+    short h[] = {local->tm_hour % 10, local->tm_hour / 10};
+    short m[] = {local->tm_min % 10, local->tm_min / 10};
+    short s[] = {local->tm_sec % 10, local->tm_sec / 10};
 
     printf(
         clock_fmt,
