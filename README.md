@@ -30,3 +30,13 @@ $ make
 ```
 # make uninstall
 ```
+
+## Screenshot
+
+![](img/img-01.png?raw=true)
+
+## License
+
+The MIT License (MIT)
+
+clk Copyright (C) 2021 Gustavo Costa
