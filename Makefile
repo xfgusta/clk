@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -pedantic -std=c99
 SRC = main.c
 
-clk: main.c
+clk: ${SRC}
 	${CC} ${CFLAGS} ${SRC} -o ${PROG}
 
 install:
